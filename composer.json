@@ -1,0 +1,27 @@
+{
+    "name": "ph-7/minimalist-sales-site",
+    "description": "A minimalist sales micro-site",
+    "homepage": "https://pierrehenry.be",
+    "type": "project",
+    "require": {
+        "php": ">=8.0.0",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PH7\\PhpReadmeGeneratorFile\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pierre-Henry Soria",
+            "email": "hi@ph7.me",
+            "homepage": "https://ph7.me"
+        }
+    ],
+    "minimum-stability": "stable"
+}
