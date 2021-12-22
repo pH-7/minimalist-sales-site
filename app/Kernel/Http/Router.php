@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace PHenry\App\Kernel\Http;
 
 use Closure;
@@ -13,15 +15,6 @@ class Router
     public static function get(string $expression, Closure $function): void
     {
         self::add($expression, $function, Http::GET_METHOD);
-    }
-
-    private static function add(string $expression, Closure $function, string $method): void
-    {
-        self::$routers[] = [
-            'expression' => $expression,
-            'function' => $function,
-            'method' => $method
-        ];
     }
 
     public static function delete(string $expression, Closure $function): void
@@ -61,9 +54,18 @@ class Router
         }
     }
 
+    private static function add(string $expression, Closure $function, string $method): void
+    {
+        self::$routers[] = [
+            'expression' => $expression,
+            'function' => $function,
+            'method' => $method
+        ];
+    }
+
     private static function cleanupUri(string $uri): string
     {
-        return str_replace('//', '/', $_SERVER['REQUEST_URI']);
+        return str_replace('//', '/', $uri);
     }
 
     private static function doesHttpMethodMatch(string $httpMethod): bool
