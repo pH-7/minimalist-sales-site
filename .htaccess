@@ -1,0 +1,17 @@
+<IfModule mod_negotiation.c>
+   # Disable Directory Browsing
+   Options -MultiViews -Indexes
+</IfModule>
+
+Options +FollowSymLinks
+
+RewriteEngine On
+
+RewriteBase /
+
+# That's the important part :)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Set all requests to the index.php file
+RewriteRule ^(.*)$ index.php [QSA]

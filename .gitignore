@@ -1,2 +1,7 @@
 vendor
 .DS_Store
+.env
+package.lock
+
+# Ignore PHPStorm config folder
+.idea
