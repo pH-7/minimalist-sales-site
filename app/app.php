@@ -1,3 +1,3 @@
 <?php
-require __DIR__ . '/router.inc.php';
+require __DIR__ . '/routes.php';
 
