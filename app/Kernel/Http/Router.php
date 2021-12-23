@@ -5,6 +5,8 @@ declare(strict_types=1);
 namespace PHenry\App\Kernel\Http;
 
 use Closure;
+use ReflectionException;
+use ReflectionFunction;
 
 class Router
 {
@@ -43,7 +45,14 @@ class Router
 
                 if (self::doesHttpMethodMatch($route['method'])) {
                     array_shift($matches);
-                    call_user_func_array($route['function'], $matches);
+
+                    try {
+                        $function = new ReflectionFunction($route['function']);
+                        $function->invokeArgs($matches);
+                    } catch (ReflectionException $except) {
+                        throw new NotFoundException($except->getMessage());
+                    }
+
                     break;
                 }
             }
