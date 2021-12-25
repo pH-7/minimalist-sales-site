@@ -23,7 +23,7 @@ The easiest way to build a micro sales site 🚀
 
 ## :thought_balloon: Usage
 
-<!-- Add what you need here -->
+Rename `env.sample` to `.env` and update the details in there.
 
 ## :cook: Author
 
