@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3922295b708538ad877a20764189cf32",
+    "content-hash": "0066159b22f5f367900813d7ec2dda3e",
     "packages": [
         {
             "name": "filp/whoops",
@@ -137,6 +137,60 @@
                 }
             ],
             "time": "2021-10-17T19:48:54+00:00"
+        },
+        {
+            "name": "ph-7/ph2gravatar",
+            "version": "v1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pH-7/pH2Gravatar.git",
+                "reference": "83658bf3baff2f45c929f3002fa3154e4bf249a0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pH-7/pH2Gravatar/zipball/83658bf3baff2f45c929f3002fa3154e4bf249a0",
+                "reference": "83658bf3baff2f45c929f3002fa3154e4bf249a0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PH7\\PH2Gravatar\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pierre-Henry Soria",
+                    "email": "hi@ph7.me",
+                    "homepage": "https://ph7.me"
+                }
+            ],
+            "description": "🎉 An easy and elegant way to generate gravatars 🖼",
+            "keywords": [
+                "avatar",
+                "gravatar",
+                "gravatar image",
+                "gravatar url",
+                "identicon",
+                "profile",
+                "profile image",
+                "profile photo"
+            ],
+            "support": {
+                "issues": "https://github.com/pH-7/pH2Gravatar/issues",
+                "source": "https://github.com/pH-7/pH2Gravatar/tree/v1.1.2"
+            },
+            "time": "2021-11-18T22:21:48+00:00"
         },
         {
             "name": "phpoption/phpoption",
