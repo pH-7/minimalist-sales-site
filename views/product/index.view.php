@@ -22,7 +22,7 @@
                                 <div class="ml-2"><small class="dis-price">$59</small> <span>40% OFF</span></div>
                             </div>
                         </div>
-                        <p class="about font-italic">️A beautiful red cup (without coffee)</p>
+                        <p class="about font-italic">️A beautiful red cup (without coffee).</p>
                         <div class="cart mt-4 align-items-center">
                             <button class="btn btn-danger text-uppercase mr-2 px-4">Buy NOW 😋</button>
                             <i class="fa fa-heart text-muted"></i> <i class="fa fa-share-alt text-muted"></i></div>

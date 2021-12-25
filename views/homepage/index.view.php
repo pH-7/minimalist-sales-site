@@ -1,9 +1,14 @@
 <main role="main" class="container">
-    <div class="center">
-        <h2>Welcome to <?= SITE_NAME ?></h2>
+    <header class="mt-5">
+        <h1 class="text-center">
+            <h2 class="text-center">Welcome to <?= SITE_NAME ?></h2>
+        </h1>
+    </header>
 
+    <div class="row">
         <article>
-            <p>Welcome here to this minimalist sales micro-site 👋</p>
+            <p class="text-center">
+                Welcome here to this minimalist sales micro-site 👋
+            </p>
         </article>
-    </div>
 </main>
