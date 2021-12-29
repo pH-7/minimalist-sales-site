@@ -8,10 +8,19 @@
     "vlucas/phpdotenv": "^5.4",
     "filp/whoops": "^2.14",
     "ph-7/ph2gravatar": "^1.1",
-    "mustache/mustache": "^2.14"
+    "mustache/mustache": "^2.14",
+    "twbs/bootstrap": "5.0.2"
   },
   "require-dev": {
     "phpunit/phpunit": "^9.5"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "scripts/composer/post-install.sh"
+    ],
+    "post-update-cmd": [
+      "scripts/composer/post-install.sh"
+    ]
   },
   "license": "MIT",
   "autoload": {
