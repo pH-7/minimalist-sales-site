@@ -1,0 +1,39 @@
+{{> header}}
+
+<main role="main" class="container mt-5 mb-5">
+    <header class="mt-5">
+        <h1 class="text-center">
+            <h2 class="text-center">Welcome to {{siteName}}</h2>
+        </h1>
+    </header>
+
+    <div class="row">
+        <article>
+            <p class="text-center">
+                Welcome here to this minimalist sales micro-site 👋
+            </p>
+        </article>
+    </div>
+
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-10">
+            {{#products}}
+            <article class="col-md-4">
+                {{#isVisible}}
+                <div class="rounded float-start align-items-center">
+                    <h3 class="text-uppercase">{{productName}}</h3>
+                    <a href="{{productUrl}}">
+                        <img src="{{productImage}}" title="{{productName}}">
+                    </a>
+                </div>
+                {{/isVisible}}
+                {{^isVisible}}
+                <p class="text-center">No product available for the moment.</p>
+                {{/isVisible}}
+            </article>
+            {{/products}}
+        </div>
+    </div>
+</main>
+
+{{> footer}}

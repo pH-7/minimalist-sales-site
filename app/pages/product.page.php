@@ -1,9 +1,13 @@
 <?php
 
-$imgUrl = 'https://source.unsplash.com/250x250/?coffee,cup';
+use PHenry\App\Kernel\Template;
 
-require_once dirname(__DIR__, 2) . '/views/_shared/header.inc.php';
+const PRODUCT_DETAILS = [
+    'productImage' => 'https://source.unsplash.com/250x250/?coffee,cup',
+    'productName' => 'Red Cup ☕',
+    'productDescription' => '️A perfect red cup (without coffee).',
+    'productPrice' => '$5',
+    'purchaseUrl' => 'https://www.buymeacoffee.com/pierrehenry',
+];
 
-require dirname(__DIR__, 2) . '/views/product/index.view.php';
-
-require_once dirname(__DIR__, 2) . '/views/_shared/footer.inc.php';
+echo Template::render('product/index', PRODUCT_DETAILS);

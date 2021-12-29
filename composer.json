@@ -7,7 +7,8 @@
     "php": ">=8.0.0",
     "vlucas/phpdotenv": "^5.4",
     "filp/whoops": "^2.14",
-    "ph-7/ph2gravatar": "^1.1"
+    "ph-7/ph2gravatar": "^1.1",
+    "mustache/mustache": "^2.14"
   },
   "require-dev": {
     "phpunit/phpunit": "^9.5"

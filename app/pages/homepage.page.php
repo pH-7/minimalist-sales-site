@@ -1,7 +1,13 @@
 <?php
 
-require_once dirname(__DIR__, 2) . '/views/_shared/header.inc.php';
+use PHenry\App\Kernel\Template;
 
-require dirname(__DIR__, 2) . '/views/homepage/index.view.php';
-
-require_once dirname(__DIR__, 2) . '/views/_shared/footer.inc.php';
+echo Template::render('homepage/index', [
+        'products' => [
+            'isVisible' => true,
+            'productName' => 'Red Cup ☕',
+            'productUrl' => '/product',
+            'productImage' => 'https://source.unsplash.com/250x250/?coffee,cup',
+        ]
+    ]
+);
