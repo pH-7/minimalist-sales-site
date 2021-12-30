@@ -15,12 +15,11 @@
     "phpunit/phpunit": "^9.5"
   },
   "scripts": {
-    "post-install-cmd": [
-      "scripts/composer/post-install.sh"
+    "post-cmd": [
+      "cp -Rf vendor/twbs/bootstrap/dist/* assets/bootstrap"
     ],
-    "post-update-cmd": [
-      "scripts/composer/post-install.sh"
-    ]
+    "post-install-cmd": ["composer run-script post-cmd"],
+    "post-update-cmd": ["composer run-script post-install-cmd"]
   },
   "license": "MIT",
   "autoload": {
