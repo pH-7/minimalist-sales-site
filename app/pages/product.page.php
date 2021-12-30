@@ -1,6 +1,6 @@
 <?php
 
-use PHenry\App\Kernel\Template;
+use PHenry\App\Kernel\Helper\Template;
 
 const PRODUCT_DETAILS = [
     'productImage' => 'https://source.unsplash.com/250x250/?coffee,cup',

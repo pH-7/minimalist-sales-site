@@ -1,6 +1,6 @@
 <?php
 
-namespace PHenry\App\Kernel;
+namespace PHenry\App\Kernel\Helper;
 
 use Mustache_Engine;
 use Mustache_Loader_FilesystemLoader;
@@ -24,8 +24,8 @@ class Template
         ];
 
         $mustache = new Mustache_Engine([
-            'loader' => new Mustache_Loader_FilesystemLoader(dirname(__DIR__, 2) . '/views', $mustacheOptions),
-            'partials_loader' => new Mustache_Loader_FilesystemLoader(dirname(__DIR__, 2) . '/views/_shared', $mustacheOptions),
+            'loader' => new Mustache_Loader_FilesystemLoader(dirname(__DIR__, 3) . '/views', $mustacheOptions),
+            'partials_loader' => new Mustache_Loader_FilesystemLoader(dirname(__DIR__, 3) . '/views/_shared', $mustacheOptions),
         ]);
 
         return $mustache->render($template, array_merge($context, self::DEFAULT_VARIABLES));
