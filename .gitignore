@@ -1,10 +1,12 @@
 vendor
-.DS_Store
 .env
 package.lock
+.DS_Store
+phpunit.xml
 .phpunit.result.cache
 assets/bootstrap/*
 !assets/bootstrap/.gitkeep
+
 
 # Ignore PHPStorm config folder
 .idea
