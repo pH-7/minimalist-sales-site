@@ -35,8 +35,7 @@ FYI: The document root file is the `index.php` located in the root of this proje
 * [Bootstrap v5](https://github.com/twbs/bootstrap/releases/tag/v5.0.0)
 * [Mustache.PHP](https://github.com/bobthecow/mustache.php)
 * [Just HTTP Status Codes](https://packagist.org/packages/ph-7/just-http-status-codes)
-* [PHPDotEnv](https://github.com/vlucas/phpdotenv).
-
+* [PHPDotEnv](https://github.com/vlucas/phpdotenv)
 
 ## :cook: Author
 
