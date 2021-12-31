@@ -19,10 +19,6 @@ class Template
         'appEmail' => APP_EMAIL
     ];
 
-    private function __construct()
-    {
-    }
-
     public static function render(string $template, array $context = []): string
     {
         $mustacheOptions = [
@@ -35,5 +31,16 @@ class Template
         ]);
 
         return $mustache->render($template, array_merge($context, self::DEFAULT_VARIABLES));
+    }
+
+    /**
+     * Private Constructor & Cloning to prevent direct object creation and cloning.
+     */
+    private function __construct()
+    {
+    }
+
+    private function __clone()
+    {
     }
 }
