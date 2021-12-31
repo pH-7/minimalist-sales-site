@@ -11,7 +11,7 @@ The easiest way to build a micro sales site 🚀
 - [Requirements](#hammer-requirements)
 - [Installation](#building_construction-installation)
 - [Usage](#thought_balloon-usage)
-- [3rd Party Libraries](#party-3rd-party-libraries)
+- [3rd Party Libraries](#tada-3rd-party-libraries)
 - [About](#cook-author)
 - [License](#page_with_curl-license)
 
@@ -30,7 +30,7 @@ Rename `env.sample` to `.env` and update the details in there.
 
 FYI: The document root file is the `index.php` located in the root of this project.
 
-## :party: 3rd party libraries
+## :tada: 3rd party libraries
 
 **This project uses the following awesome libs:**
 * [Bootstrap v5](https://github.com/twbs/bootstrap/releases/tag/v5.0.0)
