@@ -25,6 +25,8 @@ The easiest way to build a micro sales site 🚀
 
 Rename `env.sample` to `.env` and update the details in there.
 
+FYI: The document root file is the `index.php` located in the root of this project.
+
 ## :cook: Author
 
 I'm **[Pierre-Henry Soria](https://ph7.me)**. A passionate, zen &amp; dedicated software engineer 😊
