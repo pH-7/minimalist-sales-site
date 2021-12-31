@@ -8,6 +8,7 @@ declare(strict_types=1);
 
 namespace PHenry\Test\Unit\App\Kernel\Helper;
 
+use Mustache_Exception_UnknownTemplateException;
 use PHenry\App\Kernel\Helper\Template;
 use PHPUnit\Framework\TestCase;
 
@@ -18,5 +19,12 @@ class TemplateTest extends TestCase
         $actual = Template::render('homepage/index', ['key' => 'val']);
 
         $this->assertIsString($actual);
+    }
+
+    public function testRenderToThrowAnException(): void
+    {
+        $this->expectException(Mustache_Exception_UnknownTemplateException::class);
+
+        Template::render('wrongpath', ['key' => 'val']);
     }
 }
