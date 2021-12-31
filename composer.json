@@ -30,7 +30,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "PHenry\\": "tests/unit"
+      "PHenry\\Test\\Unit\\App\\": "tests/unit"
     }
   },
   "authors": [
