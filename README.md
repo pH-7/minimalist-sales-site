@@ -4,6 +4,7 @@
 
 The easiest way to build a micro sales site 🚀
 
+![PHP Minimalist Sales Micro Ecommerce Site](php-minimalist-sales-micro-site.png)
 
 ## :book: Contents
 
