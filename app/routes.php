@@ -2,7 +2,7 @@
 
 namespace PHenry\App;
 
-use PHenry\App\Kernel\Http\NotFoundException;
+use HttpException;
 use PHenry\App\Kernel\Http\Router;
 
 try {
@@ -19,8 +19,8 @@ try {
     });
 
     Router::run();
-} catch (NotFoundException $e) {
-    header('HTTP/1.1 404 Not Found');
+} catch (HttpException $e) {
+    header(sprintf('HTTP/1.1 %s %s', $e->getCode(), $e->getMessage()));
     require __DIR__ . '/pages/404.page.php';
     exit;
 }

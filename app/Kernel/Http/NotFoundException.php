@@ -2,8 +2,8 @@
 
 namespace PHenry\App\Kernel\Http;
 
-use RuntimeException;
+use HttpException;
 
-class NotFoundException extends RuntimeException
+class NotFoundException extends HttpException
 {
 }

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace PHenry\App\Kernel\Http;
 
 use Closure;
+use PH7\JustHttp\StatusCode;
 use ReflectionException;
 use ReflectionFunction;
 
@@ -50,7 +51,7 @@ class Router
                         $function = new ReflectionFunction($route['function']);
                         $function->invokeArgs($matches);
                     } catch (ReflectionException $except) {
-                        throw new NotFoundException($except->getMessage());
+                        throw new NotFoundException('Not Found', StatusCode::NOT_FOUND);
                     }
 
                     break;
@@ -59,7 +60,7 @@ class Router
         }
 
         if (!self::$pathMatchFound) {
-            throw new NotFoundException('Request Not Found');
+            throw new NotFoundException('Not Found', StatusCode::NOT_FOUND);
         }
     }
 
