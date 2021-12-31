@@ -17,7 +17,8 @@ The easiest way to build a micro sales site 🚀
 
 ## :hammer: Requirements
 
-* PHP >=8.0.0
+* [PHP 8 or newer](https://www.php.net/releases/8.0/en.php) 🎉
+* [Composer](https://getcomposer.org/doc/00-intro.md#introduction) installed on your machine 📦
 
 ## :building_construction: Installation
 
