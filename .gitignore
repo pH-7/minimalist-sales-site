@@ -1,6 +1,6 @@
 vendor
 .env
-package.lock
+composer.lock
 .DS_Store
 phpunit.xml
 .phpunit.result.cache
