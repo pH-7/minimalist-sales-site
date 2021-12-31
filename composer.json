@@ -16,6 +16,7 @@
     "phpunit/phpunit": "^9.5"
   },
   "scripts": {
+    "test": "vendor/bin/phpunit",
     "post-cmd": [
       "cp -Rf vendor/twbs/bootstrap/dist/* assets/bootstrap"
     ],
@@ -25,7 +26,12 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "PHenry\\App\\": "app/"
+      "PHenry\\App\\": "app"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PHenry\\": "tests/unit"
     }
   },
   "authors": [
