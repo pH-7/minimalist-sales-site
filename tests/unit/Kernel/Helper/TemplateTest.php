@@ -12,7 +12,7 @@ use Mustache_Exception_UnknownTemplateException;
 use PHenry\App\Kernel\Helper\Template;
 use PHPUnit\Framework\TestCase;
 
-class TemplateTest extends TestCase
+final class TemplateTest extends TestCase
 {
     public function testRenderToBeString(): void
     {
