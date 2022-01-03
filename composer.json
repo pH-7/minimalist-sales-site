@@ -20,7 +20,7 @@
       "cp -Rf vendor/twbs/bootstrap/dist/* assets/bootstrap"
     ],
     "post-install-cmd": ["composer run-script post-cmd"],
-    "post-update-cmd": ["composer run-script post-install-cmd"]
+    "post-update-cmd": ["composer run-script post-cmd"]
   },
   "license": "MIT",
   "autoload": {
