@@ -7,11 +7,11 @@
     "php": ">=8.0.0",
     "vlucas/phpdotenv": "^5.4",
     "mustache/mustache": "^2.14",
-    "twbs/bootstrap": "5.1",
-    "ph-7/just-http-status-codes": "^1.1"
+    "twbs/bootstrap": "^5.1",
+    "ph-7/just-http-status-codes": "^1.1",
+    "filp/whoops": "^2.14"
   },
   "require-dev": {
-    "filp/whoops": "^2.14",
     "phpunit/phpunit": "^9.5"
   },
   "scripts": {

@@ -23,7 +23,7 @@ The easiest way to build a micro sales site 🚀
 
 Rename `env.sample` to `.env` and update the details in there.
 
-FYI: The document root file is the `index.php` located in the root of this project.
+FYI: The document root file is `index.php` located in the root directory of this project.
 
 ## :tada: 3rd party libraries
 
