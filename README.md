@@ -9,8 +9,7 @@ The easiest way to build a micro sales site 🚀
 ## :book: Contents
 
 - [Requirements](#hammer-requirements)
-- [Installation](#building_construction-installation)
-- [Usage](#thought_balloon-usage)
+- [Setup](#thought_balloon-setup)
 - [3rd Party Libraries](#tada-3rd-party-libraries)
 - [About](#cook-author)
 - [License](#page_with_curl-license)
@@ -20,11 +19,7 @@ The easiest way to build a micro sales site 🚀
 * [PHP 8 or newer](https://www.php.net/releases/8.0/en.php) 🎉
 * [Composer](https://getcomposer.org/doc/00-intro.md#introduction) installed on your machine 📦
 
-## :building_construction: Installation
-
-<!-- Add what you need here -->
-
-## :thought_balloon: Usage
+## :thought_balloon: Setup
 
 Rename `env.sample` to `.env` and update the details in there.
 
