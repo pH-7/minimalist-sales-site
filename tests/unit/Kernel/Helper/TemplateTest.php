@@ -6,7 +6,7 @@
 
 declare(strict_types=1);
 
-namespace PHenry\Tests\Unit\App\Kernel\Helper;
+namespace PHenry\App\Tests\Unit\Kernel\Helper;
 
 use Mustache_Exception_UnknownTemplateException;
 use PHenry\App\Kernel\Helper\Template;
