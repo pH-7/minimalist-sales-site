@@ -53,7 +53,7 @@ You can keep in touch with me at: *hi@ph7.me* 📮
 
 ## :tv: Video
 
-[![Watch the video](https://i1.ytimg.com/vi/4OzD_agPFLA/sddefault.jpg.jpg)](https://www.youtube.com/watch?v=4OzD_agPFLA)
+[![Watch the video](https://i1.ytimg.com/vi/4OzD_agPFLA/sddefault.jpg)](https://www.youtube.com/watch?v=4OzD_agPFLA)
 
 👉 [Click here to watch on YouTube](https://www.youtube.com/watch?v=4OzD_agPFLA)
 
