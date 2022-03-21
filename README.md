@@ -53,8 +53,7 @@ You can keep in touch with me at: *hi@ph7.me* 📮
 
 ## :tv: Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4OzD_agPFLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-[![Watch the video](https://i1.ytimg.com/vi/4OzD_agPFLA/maxresdefault.jpg)](https://youtu.be/4OzD_agPFLA)
+[![Watch the video](https://i1.ytimg.com/vi/4OzD_agPFLA/maxresdefault.jpg)](https://www.youtube.com/watch?v=4OzD_agPFLA)
 
 👉 [Click here to watch on YouTube](https://www.youtube.com/watch?v=4OzD_agPFLA)
 
