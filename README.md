@@ -2,17 +2,15 @@
 
 ### A minimalist sales micro-site
 
-The easiest way to build a micro sales site 🚀
-
-![PHP Minimalist Sales Micro Ecommerce Site](php-minimalist-sales-micro-site.png)
-
-## :book: Contents
+*The easiest way to build a micro sales site 🚀*
 
 - [Requirements](#hammer-requirements)
 - [Setup](#thought_balloon-setup)
 - [3rd Party Libraries](#tada-3rd-party-libraries)
 - [About](#cook-author)
 - [License](#page_with_curl-license)
+
+![PHP Minimalist Sales Micro Ecommerce Site](php-minimalist-sales-micro-site.png)
 
 ## :hammer: Requirements
 
