@@ -13,11 +13,11 @@ Router::get('/', function () {
 });
 
 Router::get('/contact', function () {
-    require __DIR__ . '/pages/contact.page.php';
+    return require __DIR__ . '/pages/contact.page.php';
 });
 
 Router::get('/product', function () {
-    require __DIR__ . '/pages/product.page.php';
+    return require __DIR__ . '/pages/product.page.php';
 });
 
 Router::run();
