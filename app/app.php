@@ -6,4 +6,12 @@
 
 namespace PHenry\App;
 
-require __DIR__ . '/routes.php';
+use HttpException;
+
+try {
+    require __DIR__ . '/routes.php';
+} catch (HttpException $e) {
+    header(sprintf('HTTP/1.1 %s %s', $e->getCode(), $e->getMessage()));
+    require __DIR__ . '/pages/404.page.php';
+    exit;
+}
