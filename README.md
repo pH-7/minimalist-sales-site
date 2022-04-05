@@ -20,7 +20,8 @@
 
 ## :thought_balloon: Setup
 
-Rename `env.sample` to `.env` and update the details in there.
+* From a command line opened in the project, run `composer install` to install the project dependencies.
+* Rename `env.sample` to `.env` and update the details in there.
 
 FYI: The document root file is `index.php` located in the root directory of this project.
 
