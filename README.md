@@ -8,15 +8,17 @@
 - [💭 Setup](#thought_balloon-setup)
 - [🎉 3rd Party Libraries](#tada-3rd-party-libraries)
 - [🧑‍🍳 About](#cook-author)
-- [📄 License](#page_with_curl-license)
 - [📺 Video](#tv-video)
+- [📄 License](#page_with_curl-license)
 
 ![PHP Minimalist Sales Micro Ecommerce Site](php-minimalist-sales-micro-site.png)
+
 
 ## :hammer: Requirements
 
 * [PHP 8 or newer](https://www.php.net/releases/8.0/en.php) 🎉
 * [Composer](https://getcomposer.org/doc/00-intro.md#introduction) installed on your machine 📦
+
 
 ## :thought_balloon: Setup
 
@@ -25,6 +27,7 @@
 
 FYI: The document root file is `index.php` located in the root directory of this project.
 
+
 ## :tada: 3rd party libraries
 
 **This project uses the following awesome libs:**
@@ -32,6 +35,7 @@ FYI: The document root file is `index.php` located in the root directory of this
 * [Mustache.PHP](https://github.com/bobthecow/mustache.php)
 * [Just HTTP Status Codes](https://packagist.org/packages/ph-7/just-http-status-codes)
 * [PHP dotenv](https://github.com/vlucas/phpdotenv)
+
 
 ## :cook: Author
 
@@ -45,15 +49,17 @@ You can keep in touch with me at: *hi@ph7.me* 📮
 
 [![Pierre-Henry Soria](https://www.gravatar.com/avatar/a210fe61253c43c869d71eaed0e90149?s=200&r=g&d=mp)](https://ph7.me "Pierre-Henry Soria")
 
-## :page_with_curl: License
-
-**Minimalist sales micro-site** is distributed under [MIT](https://opensource.org/licenses/MIT) license 🚀 Enjoy! ❤️
 
 ## :tv: Video
 
 [![Watch the video](https://i1.ytimg.com/vi/4OzD_agPFLA/sddefault.jpg)](https://www.youtube.com/watch?v=4OzD_agPFLA)
 
 👉 **[Click here to watch on YouTube](https://www.youtube.com/watch?v=4OzD_agPFLA)**
+
+
+## :page_with_curl: License
+
+**Minimalist sales micro-site** is distributed under [MIT](https://opensource.org/licenses/MIT) license 🚀 Enjoy! ❤️
 
 
 <!-- GitHub's Markdown reference links -->
