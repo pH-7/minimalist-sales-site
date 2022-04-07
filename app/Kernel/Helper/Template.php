@@ -11,7 +11,7 @@ namespace PHenry\App\Kernel\Helper;
 use Mustache_Engine;
 use Mustache_Loader_FilesystemLoader;
 
-class Template
+final class Template
 {
     private const DEFAULT_VARIABLES = [
         'siteName' => SITE_NAME,
