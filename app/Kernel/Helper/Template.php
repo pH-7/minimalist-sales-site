@@ -19,19 +19,28 @@ final class Template
         'appEmail' => APP_EMAIL
     ];
 
-    public static function render(string $template, array $context = []): string
+    public static function render(string $template, string $title = '', array $context = []): string
     {
         $viewPath = dirname(__DIR__, 3) . '/views';
         $partialViewPath = $viewPath . DIRECTORY_SEPARATOR . '_shared';
 
         $mustacheOptions = [
-            'extension' => '.mustache.html' // By default, it's `.mustache`, however we want to use `.mustache.html` extension
+            // By default, it's `.mustache`, however we want to use `.mustache.html` extension
+            'extension' => '.mustache.html'
         ];
 
         $mustache = new Mustache_Engine([
-            'loader' => new Mustache_Loader_FilesystemLoader($viewPath, $mustacheOptions),
-            'partials_loader' => new Mustache_Loader_FilesystemLoader($partialViewPath, $mustacheOptions),
+            'loader' => new Mustache_Loader_FilesystemLoader(
+                $viewPath, $mustacheOptions
+            ),
+            'partials_loader' => new Mustache_Loader_FilesystemLoader(
+                $partialViewPath,
+                $mustacheOptions
+            )
         ]);
+
+        // Set a title to the page
+        $context['pageTitle'] = $title;
 
         return $mustache->render($template, array_merge($context, self::DEFAULT_VARIABLES));
     }

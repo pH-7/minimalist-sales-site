@@ -10,4 +10,4 @@ const PRODUCT_DETAILS = [
     'purchaseUrl' => 'https://www.buymeacoffee.com/pierrehenry',
 ];
 
-echo Template::render('product/index', PRODUCT_DETAILS);
+echo Template::render('product/index', 'Product', PRODUCT_DETAILS);
