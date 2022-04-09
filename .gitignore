@@ -1,12 +1,24 @@
+# Dependencies
 vendor
-.env
 composer.lock
-.DS_Store
+
+# App Configuration
+.env
+
+# Tests
 phpunit.xml
 .phpunit.result.cache
+
+# Assets
 assets/bootstrap/*
 !assets/bootstrap/.gitkeep
 
-
 # Ignore PHPStorm config folder
 .idea
+
+# Temporary/Log
+*.log
+*~
+*.swp
+.directory
+.DS_Store*
