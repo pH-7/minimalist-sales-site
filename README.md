@@ -22,11 +22,11 @@
 
 ## :thought_balloon: Setup
 
-* From a command line opened in the project, run `composer install` to install the project dependencies.
-* Rename `env.sample` to `.env` and update the details in there.
-* Run the PHP built-in server `php -S 127.0.0.1:8080` for testing purpose.
-* Update the products details/list of products in `app/products.php`
-* Update the product page details in `app/pages/product.page.php`
+1. From a command line opened in the project, run `composer install` to install the project dependencies.
+2. Rename `env.sample` to `.env` and update the details in there.
+3. Run the PHP built-in server `php -S 127.0.0.1:8080` for testing purpose.
+4. Update the products details/list of products in `app/products.php`
+5. Update the product page details in `app/pages/product.page.php`
 
 FYI: The document root file is `index.php` located in the root directory of this project.
 
