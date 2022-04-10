@@ -2,4 +2,5 @@
 
 use PHenry\App\Kernel\Helper\Template;
 
-echo Template::render('contact/index', 'Contact Us');
+Template::output('contact/index', 'Contact Us');
+//echo Template::render('contact/index', 'Contact Us');

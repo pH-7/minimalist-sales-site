@@ -43,6 +43,11 @@ final class Template
         return $mustache->render($template, array_merge($context, self::DEFAULT_VARIABLES));
     }
 
+    public static function output(string $template, string $title, array $context = []): void
+    {
+        echo self::render($template, $title, $context);
+    }
+
     /**
      * Private constructor to prevent direct object creation.
      */
