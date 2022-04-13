@@ -16,7 +16,7 @@ final class TemplateTest extends TestCase
 {
     public function testRenderToBeString(): void
     {
-        $actual = Template::render('homepage/index', ['key' => 'val']);
+        $actual = Template::render('homepage/index', 'Name', ['key' => 'val']);
 
         $this->assertIsString($actual);
     }
@@ -25,6 +25,6 @@ final class TemplateTest extends TestCase
     {
         $this->expectException(Mustache_Exception_UnknownTemplateException::class);
 
-        Template::render('wrongpath', ['key' => 'val']);
+        Template::render('wrongpath', 'Name', ['key' => 'val']);
     }
 }
