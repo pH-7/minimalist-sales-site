@@ -33,7 +33,7 @@ FYI: The document root file is `index.php` located in the root directory of this
 
 ## :tada: 3rd party libraries
 
-**This project uses the following awesome libraries:**
+**This project uses the following awesome libraries 🎈**
 * [Bootstrap v5](https://github.com/twbs/bootstrap/releases/tag/v5.0.0)
 * [Mustache.PHP](https://github.com/bobthecow/mustache.php)
 * [Just HTTP Status Codes](https://packagist.org/packages/ph-7/just-http-status-codes)
