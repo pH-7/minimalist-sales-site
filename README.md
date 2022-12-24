@@ -46,8 +46,7 @@ I'm **[Pierre-Henry Soria](https://ph7.me)**. A passionate, perseverant zen &amp
 
 You can keep in touch with me at: *hi@ph7.me* 📮
 
-[![pH-7][github-image]](https://github.com/pH-7 "Follow Me on GitHub") [![@phenrysay][twitter-image]](https://twitter.com/phenrysay "Follow Me on Twitter") 
-[![LinkedIn][linkedin-image]](https://www.linkedin.com/in/ph7enry/ "Pierre-Henry Soria LinkedIn")
+[![LinkedIn][linkedin-image]](https://www.linkedin.com/in/ph7enry/ "Pierre-Henry Soria LinkedIn") [![pH-7][github-image]](https://github.com/pH-7 "Follow Me on GitHub") [![@phenrysay][twitter-image]](https://twitter.com/phenrysay "Follow Me on Twitter")
 
 ---
 
