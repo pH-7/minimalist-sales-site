@@ -42,15 +42,13 @@ FYI: The document root file is `index.php` located in the root directory of this
 
 ## :cook: Author
 
+[![Pierre-Henry Soria][profile-photo]](https://ph7.me "Pierre-Henry Soria")
+
 I'm **[Pierre-Henry Soria](https://ph7.me)**. A passionate, perseverant zen &amp; dedicated software engineer 😊 **Coding the best applications with the best practices is my way of life! 🌴**
 
-You can keep in touch with me at: *hi@ph7.me* 📮
+You can always keep in touch with me at: *hi@ph7.me* 📮
 
 [![LinkedIn][linkedin-image]](https://www.linkedin.com/in/ph7enry/ "Pierre-Henry Soria LinkedIn") [![pH-7][github-image]](https://github.com/pH-7 "Follow Me on GitHub") [![@phenrysay][twitter-image]](https://twitter.com/phenrysay "Follow Me on Twitter")
-
----
-
-[![Pierre-Henry Soria][profile-photo]](https://ph7.me "Pierre-Henry Soria")
 
 
 ## :tv: Video
@@ -66,7 +64,7 @@ You can keep in touch with me at: *hi@ph7.me* 📮
 
 
 <!-- GitHub's Markdown reference links -->
-[profile-photo]: https://www.gravatar.com/avatar/a210fe61253c43c869d71eaed0e90149?s=200&r=g&d=mp
+[profile-photo]: https://www.gravatar.com/avatar/a210fe61253c43c869d71eaed0e90149?s=150&r=g&d=mp
 [github-image]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
 [twitter-image]: https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white
 [linkedin-image]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
