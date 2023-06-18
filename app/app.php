@@ -6,7 +6,7 @@
 
 namespace PHenry\App;
 
-use PHenry\App\Kernel\Http\HttpException;
+use PHenry\App\Kernel\Http\Exception\HttpException;
 
 try {
     require __DIR__ . '/routes.php';

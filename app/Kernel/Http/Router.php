@@ -10,6 +10,7 @@ namespace PHenry\App\Kernel\Http;
 
 use Closure;
 use PH7\JustHttp\StatusCode;
+use PHenry\App\Kernel\Http\Exception\NotFoundException;
 use ReflectionException;
 use ReflectionFunction;
 

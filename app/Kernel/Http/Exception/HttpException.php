@@ -4,8 +4,10 @@
  * MIT License - https://opensource.org/licenses/MIT
  */
 
-namespace PHenry\App\Kernel\Http;
+namespace PHenry\App\Kernel\Http\Exception;
 
-class NotFoundException extends HttpException
+use Exception;
+
+class HttpException extends Exception
 {
 }
