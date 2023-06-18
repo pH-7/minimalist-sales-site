@@ -6,8 +6,8 @@
 
 namespace PHenry\App\Kernel\Http\Exception;
 
-use Exception;
+use RuntimeException;
 
-class HttpException extends Exception
+class HttpException extends RuntimeException
 {
 }
